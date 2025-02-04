@@ -12,7 +12,7 @@ public class Test {
 		System.out.println("printing even values");
 		lst.stream().filter(i -> i%2==0).forEach(System.out::println);
 		System.out.println("so these were the values you wanted");
-		
+		System.out.println("okay thanks see you later!");
 	}
 
 }
